@@ -25,7 +25,7 @@ def thumbnail_n_title():
         window.label_5.setText("")
     except:
         window.label_5.setStyleSheet("QLabel#label_5"+"{"+"color:red;}")
-        window.label_5.setText("Please Enter a Valid URL")
+        window.label_5.setText("Please Enter A Valid URL")
 
         return None
     
